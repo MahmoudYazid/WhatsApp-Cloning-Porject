@@ -1,0 +1,132 @@
+.navbar {
+    width: 100%;
+    background-color: #fcf5eb;
+    height: 10%;
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    padding-top: 14px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.FirstBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.NavBarBtm {
+    border: black solid 1px;
+    height: 70%;
+    background-color: #25d366;
+    width: 50%;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    flex-direction: row;
+}
+
+.NavBarBtm:hover img {
+    content: url('./public/whiteArrow.png')
+}
+
+.NavBarBtm:hover {
+    animation: NavBtmAnim 1s ease-out;
+    -webkit-animation: NavBtmAnim 1s ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes NavBtmAnim {
+    from {
+        background-color: #25d366;
+        color: black;
+    }
+    to {
+        background-color: black;
+        color: white;
+    }
+}
+
+.DownloadBtmTextbox {
+    margin: 40px;
+    cursor: pointer;
+    flex-direction: row;
+    display: flex;
+}
+
+.DownloadImg {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 19px;
+    left: 12px;
+}
+
+.CenterWordsContainer {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-right: 240px;
+}
+
+.WhatsAppWord {
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+.WhatsAppPic {
+    position: relative;
+    height: 50%;
+    width: 8%;
+    margin-right: auto;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.CenterWords {
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.CenterWords:hover .WhatsAppWordDev {
+    transition: width 1s ease-in-out;
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -ms-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    width: 100%;
+}
+
+.WhatsAppWord:hover .WhatsAppWordDev {
+    animation-name: WhatsAppWordDevAnim;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes WhatsAppWordDevAnim {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.WhatsAppWordDev {
+    background-color: #25d366;
+    width: 0%;
+    height: 3px;
+    position: relative;
+    bottom: 18px;
+}

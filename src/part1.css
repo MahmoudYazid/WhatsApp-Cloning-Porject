@@ -1,0 +1,115 @@
+.Maincontainer {
+    background-color: #fcf5eb;
+    height: 30%;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.motherPicClass {
+    width: 95%;
+    height: 100%;
+    margin-left: 2.5%;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.MotherPicText {
+    font-size: 70px;
+    position: absolute;
+    bottom: 10%;
+    margin-left: 15%;
+    color: white;
+    font-weight: 10px;
+}
+
+.MotherSubtitle {
+    font-size: 20px;
+    position: absolute;
+    bottom: 7%;
+    margin-left: 15%;
+    color: white;
+    font-weight: 10px;
+    margin-bottom: 1px;
+}
+
+.DownloadBtm {
+    position: absolute;
+    top: 95%;
+    margin-left: 240px;
+    border: black solid 1px;
+    height: 8%;
+    background-color: #25d366;
+    width: 10%;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    z-index: 0;
+}
+
+.DownloadBtm:hover {
+    animation: NavBtmAnimInMiddel .5s ease-out;
+    -webkit-animation: NavBtmAnimInMiddel .5s ease-out;
+    animation-fill-mode: forwards;
+}
+
+.DownloadBtmTextboxMiddleOfPage {
+    margin: 40px;
+    cursor: pointer;
+    flex-direction: row;
+    display: flex;
+}
+
+.imgOfMidlleBtm {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 19px;
+    right: 10px;
+}
+
+@keyframes NavBtmAnimInMiddel {
+    from {
+        background-color: #25d366;
+        color: black;
+    }
+    to {
+        background-color: white;
+        color: black;
+    }
+}
+
+.Good_morning_pic_class {
+    width: 30%;
+    position: absolute;
+    bottom: 60%;
+    left: 57%;
+}
+
+.steaker_pic_class {
+    width: 30%;
+    position: absolute;
+    bottom: 40%;
+    left: 57%;
+}
+
+.Record_pic_class {
+    width: 30%;
+    position: absolute;
+    bottom: 30%;
+    left: 57%;
+}
+
+.chatBetween_pic_class {
+    width: 30%;
+    position: absolute;
+    top: 71%;
+    left: 57%;
+}

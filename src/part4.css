@@ -1,0 +1,55 @@
+.MaincontainerPart4 {
+    background-color: rgb(17, 27, 33);
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+}
+
+.brownpicClass {
+    position: relative;
+    height: 650px;
+    width: 528px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.TextContainerpart4 {
+    font-size: 65px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+.SubTextpart4 {
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-weight: 100px;
+    color: white;
+}
+
+.LearnMoreContainerPart4 {
+    position: absolute;
+    left: 50%;
+    font-weight: 70px;
+    top: 70%;
+    color: white;
+}
+
+.LearnMoreContainerPart4:hover {
+    color: #25d366;
+    cursor: pointer;
+}
+
+.LineClasspart4 {
+    position: absolute;
+    left: 1%;
+    font-weight: 70px;
+    width: 100%;
+    height: 5%;
+    background-color: #25d366;
+    top: 75%;
+    cursor: pointer;
+}
