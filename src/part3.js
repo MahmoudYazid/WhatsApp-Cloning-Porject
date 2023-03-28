@@ -10,12 +10,12 @@ export default function Part3() {
         className="fathermotherdoughterClass"
       ></img>
       <p class="MainTitle">
-        Never miss a <br></br>moment with<br></br> voice and video <br></br>{" "}
+        Never miss a <br></br>moment with voice<br></br> and video <br></br>
         calls
       </p>
       <p class="Subtitle">
-        From a group call to classmates to a quick call with mom,<br></br> feel
-        like you’re in the same room with voice and video<br></br> calls.
+        From a group call to classmates to a quick call<br></br> with mom,feel
+        like you’re in the same room<br></br> with voice and video calls.
       </p>
       <div className="TextContainer">
         <p>Learn More {">"}</p>

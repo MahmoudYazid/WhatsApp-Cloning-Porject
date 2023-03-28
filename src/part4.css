@@ -1,7 +1,7 @@
 .MaincontainerPart4 {
     background-color: rgb(17, 27, 33);
     height: 100%;
-    width: 100%;
+    max-width: 100%;
     margin-top: 0px;
     position: relative;
 }
@@ -9,9 +9,10 @@
 .brownpicClass {
     position: relative;
     height: 650px;
-    width: 528px;
+    max-width: 40rem;
     margin-left: 150px;
     margin-top: 100px;
+
 }
 
 .TextContainerpart4 {
@@ -52,4 +53,43 @@
     background-color: #25d366;
     top: 75%;
     cursor: pointer;
+}
+@media screen and (max-width:811px) {
+.MaincontainerPart4 {
+    background-color: rgb(17, 27, 33);
+    height: 100%;
+    max-width: 100%;
+    margin-top: 0px;
+    position: relative;
+}
+
+.TextContainerpart4 {
+    font-size: 2rem;
+    position: absolute;
+    left: 15%;
+    top: .1rem;
+}
+.brownpicClass {
+    display: block;
+    height: auto;
+    max-width: 20rem;
+    right: 5rem;
+    margin-top: 20rem;
+
+}
+.SubTextpart4 {
+    font-size: .8rem;
+    position: absolute;
+    left: 9%;
+    top: 7rem;
+    font-weight: 100px;
+    color: white;
+}
+.LearnMoreContainerPart4 {
+    position: absolute;
+    left: 15%;
+    font-weight: 70px;
+     top: 12rem;
+    color: white;
+}
 }

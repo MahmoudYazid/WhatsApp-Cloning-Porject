@@ -1,13 +1,13 @@
 .Maincontainer {
     background-color: #fcf5eb;
     height: 30%;
-    width: 100%;
+    max-width: 100%;
     margin-top: 70px;
 }
 
 .motherPicClass {
-    width: 95%;
-    height: 100%;
+    max-width: 95%;
+    height: 40rem;
     margin-left: 2.5%;
     border-radius: 40px;
     -webkit-border-radius: 40px;
@@ -17,32 +17,32 @@
 }
 
 .MotherPicText {
-    font-size: 70px;
+      font-size: 4em;
+   
     position: absolute;
-    bottom: 10%;
+    top: 12rem;
     margin-left: 15%;
     color: white;
-    font-weight: 10px;
 }
 
 .MotherSubtitle {
-    font-size: 20px;
+     font-size: 1rem;
     position: absolute;
-    bottom: 7%;
+    top: 26rem;
     margin-left: 15%;
     color: white;
-    font-weight: 10px;
-    margin-bottom: 1px;
+    font-weight: 1rem;
+    
 }
 
 .DownloadBtm {
     position: absolute;
-    top: 95%;
-    margin-left: 240px;
+    top: 33rem;
+    margin-left: 15%;
     border: black solid 1px;
-    height: 8%;
+    height: 3.5rem;
     background-color: #25d366;
-    width: 10%;
+    max-width: 11rem;
     border-radius: 60px;
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
@@ -68,9 +68,9 @@
 }
 
 .imgOfMidlleBtm {
-    width: 15px;
+    max-width: 15px;
     height: 15px;
-    position: relative;
+    position: absolute;
     top: 19px;
     right: 10px;
 }
@@ -87,29 +87,113 @@
 }
 
 .Good_morning_pic_class {
-    width: 30%;
+    max-width: 30%;
     position: absolute;
-    bottom: 60%;
+    top: 10rem;
     left: 57%;
 }
 
 .steaker_pic_class {
-    width: 30%;
+    max-width: 30%;
     position: absolute;
-    bottom: 40%;
+    top: 11rem;
     left: 57%;
 }
 
 .Record_pic_class {
-    width: 30%;
+    max-width: 30%;
     position: absolute;
-    bottom: 30%;
+    top: 16rem;
     left: 57%;
 }
 
 .chatBetween_pic_class {
-    width: 30%;
+    max-width: 30%;
     position: absolute;
-    top: 71%;
+    top: 24rem;
     left: 57%;
+}
+@media screen and (max-width:800px) {
+    
+.motherPicClass {
+    max-width: 95%;
+    height: 15rem;
+    margin-left: 2.5%;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+    .Record_pic_class {
+    visibility: hidden;
+    
+    position: absolute;
+ 
+}
+.chatBetween_pic_class {
+visibility: hidden;
+    
+    position: absolute;
+}
+.MotherPicText {
+    font-size: 2em;
+   
+    position: absolute;
+    top: 10rem;
+    margin-left: 15%;
+    color: white;
+  
+}
+.MotherSubtitle {
+     font-size: .5rem;
+    position: absolute;
+    top: 17rem;
+    margin-left: 15%;
+    color: white;
+    font-weight: 1rem;
+    
+}
+.DownloadBtm {
+    position: absolute;
+    top: 20rem;
+    margin-left: 15%;
+    border: black solid 1px;
+    height: 2rem;
+    background-color: #25d366;
+    max-width: 5rem;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    z-index: 0;
+}
+.DownloadBtmTextboxMiddleOfPage {
+    margin: 2rem;
+    cursor: pointer;
+    flex-direction: row;
+    display: flex;
+}
+.DownloadBtmTextboxMiddleOfPage p{
+   font-size: .5rem;
+    position: absolute;
+    bottom:  .2rem;
+    right: 1.2rem ;
+    margin-left: 15%;
+    color: black;
+    font-weight: 1rem;
+}
+.imgOfMidlleBtm {
+    max-width: .5rem;
+    height: .5rem;
+    position: absolute;
+    top: .7rem;
+    right: .3rem ;
+}
+
+    
 }

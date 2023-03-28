@@ -2,9 +2,16 @@ import React from 'react'
 import './navbar.css'
 import downloadimgpicture from './public/download.png'
 import WhatsAppPic from "./public/DSxOAUB0raA.png";
+import { AiOutlineMenu } from "react-icons/ai";
+
 export default function Navbar() {
   return (
-    <nav className="navbar" dir="rtl">
+    <nav
+      className="navbar"
+      dir="rtl"
+     
+     
+    >
       <div className="FirstBox">
         <span className="NavBarBtm">
           <div className="DownloadBtmTextbox">
@@ -40,8 +47,8 @@ export default function Navbar() {
           <p className="FeatureMenu">Feature</p>
           <div className="WhatsAppWordDev"></div>
         </div>
-
       </div>
+      <AiOutlineMenu className="AiOutlineMenu"></AiOutlineMenu>
 
       <img src={WhatsAppPic} className="WhatsAppPic" alt="img"></img>
     </nav>

@@ -2,13 +2,13 @@ import React,{useState} from 'react'
 import './part5.css'
 import whatsappimg from './public/6422213.png'
 export default function Part5() {
-    const [title, SetTitle] = useState("Click Next to see who made this");
+    const [title, SetTitle] = useState("Click Next");
     const [Body, SetBody] = useState("or click read me"
     );
     
   return (
     <div className="Maincontainerpart5">
-      <p className="ContactUs">connect with us</p>
+
 
       <div className="Conatiners">
         <img
@@ -40,7 +40,7 @@ export default function Part5() {
       <div
         className="leftbtm"
         onClick={() => {
-          SetTitle("Click Next to see who made this");
+          SetTitle("Click Next");
           SetBody("or click read me");
         }}
       >

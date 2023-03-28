@@ -1,7 +1,7 @@
 .navbar {
-    width: 100%;
+    max-width: 100%;
     background-color: #fcf5eb;
-    height: 10%;
+    height: 5rem;
     display: flex;
     align-content: space-between;
     flex-direction: row;
@@ -22,7 +22,7 @@
     border: black solid 1px;
     height: 70%;
     background-color: #25d366;
-    width: 50%;
+    max-width: 50%;
     border-radius: 60px;
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
@@ -32,6 +32,7 @@
     align-items: center;
     margin-right: 40px;
     flex-direction: row;
+    margin-right: auto;
 }
 
 .NavBarBtm:hover img {
@@ -63,7 +64,7 @@
 }
 
 .DownloadImg {
-    width: 15px;
+    max-width: 15px;
     height: 15px;
     position: relative;
     top: 19px;
@@ -85,12 +86,12 @@
 .WhatsAppPic {
     position: relative;
     height: 50%;
-    width: 8%;
+    max-width: 8%;
     margin-right: auto;
     cursor: pointer;
     align-self: flex-start;
-    margin-left: 30px;
-    margin-top: 5px;
+    margin-left: 5rem;
+    margin-top: .5rem;
 }
 
 .CenterWords {
@@ -100,12 +101,12 @@
 }
 
 .CenterWords:hover .WhatsAppWordDev {
-    transition: width 1s ease-in-out;
-    -webkit-transition: width 1s ease-in-out;
-    -moz-transition: width 1s ease-in-out;
-    -ms-transition: width 1s ease-in-out;
-    -o-transition: width 1s ease-in-out;
-    width: 100%;
+    transition: max-width 1s ease-in-out;
+    -webkit-transition: max-width 1s ease-in-out;
+    -moz-transition: max-width 1s ease-in-out;
+    -ms-transition: max-width 1s ease-in-out;
+    -o-transition: max-width 1s ease-in-out;
+    max-width: 100%;
 }
 
 .WhatsAppWord:hover .WhatsAppWordDev {
@@ -116,17 +117,103 @@
 
 @keyframes WhatsAppWordDevAnim {
     from {
-        width: 0%;
+        max-width: 0%;
     }
     to {
-        width: 100%;
+        max-width: 100%;
     }
 }
 
 .WhatsAppWordDev {
     background-color: #25d366;
-    width: 0%;
+    max-width: 0%;
     height: 3px;
     position: relative;
     bottom: 18px;
+}
+
+.AiOutlineMenu{
+    visibility: hidden;
+    position: absolute;
+    display: inline;
+
+}
+
+
+
+
+@media screen and (max-width:876px){
+    .navbar {
+    max-width: 100%;
+    background-color: #fcf5eb;
+    height: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: space-between;
+    
+    padding-top: 14px;
+    position: fixed;
+    top: 0;
+
+    z-index: 5;
+}
+
+    
+.DownloadBtmTextbox p{
+    visibility: hidden;
+}
+.NavBarBtm{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    grid-row-start: 4;
+    grid-row-end: 3;
+}
+
+.DownloadImg {
+    max-width: 1rem;
+    height: 1rem;
+    position: relative;
+    left: 2rem;
+}
+.WhatsAppWord{
+    visibility:hidden;
+    position: absolute;
+}
+.CenterWordsContainer{
+    visibility: hidden;
+    position: absolute;
+}
+
+.WhatsAppPic {
+    position: absolute;
+    height: 2rem;
+    max-width: 5rem;
+    cursor: pointer;
+    
+    margin-right: 43%;
+    margin-top: .5rem;
+}
+.AiOutlineMenu{
+    visibility:visible;
+  
+    height: 4rem;
+    
+    max-width: 4rem;
+
+    
+   
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    left: 1rem;
+    
+  
+
+ 
+    
+
+}
+
+    
 }

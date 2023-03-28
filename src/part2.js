@@ -7,8 +7,8 @@ export default function Part2() {
     <div className="Maincontainer">
       <img src={pictno1} className="pictno1Class" alt="img"></img>
       <p className='middleText'>
-        With private messaging and calling, you can <br></br>be yourself, speak freely
-        and feel close to <br></br>the most important people in your life no matter <br></br>where
+        With private messaging and calling, you can be yourself, speak freely
+        and feel close to the most important people in your life no matter where
         they are.
       </p>
       <img src={pictno2} className="pictno1Class" alt="img"></img>

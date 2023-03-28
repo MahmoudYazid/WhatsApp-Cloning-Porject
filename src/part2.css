@@ -12,7 +12,23 @@
 }
 
 .middleText {
-    font-size: 40px;
-    padding-left: 20%;
+    font-size: 2rem;
+    margin-left: 30%;
+    margin-right: 30%;
+   
     font-weight: 10px;
+}
+@media screen and (max-width:810px) {
+
+.middleText {
+    font-size: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+.pictno1Class {
+    max-width: 40rem;
+    height: 40%;
+    margin-left: 5%;
+}
 }

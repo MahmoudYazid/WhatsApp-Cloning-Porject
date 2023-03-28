@@ -16,7 +16,7 @@ const App=()=> {
       <Part2></Part2>
       <Part3></Part3>
       <Part4></Part4>
-      <Part5></Part5>
+      <Part5></Part5> 
     </div>
   );
 }

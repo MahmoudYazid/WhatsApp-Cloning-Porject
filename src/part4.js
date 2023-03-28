@@ -11,9 +11,9 @@ export default function Part4() {
       </p>
       <img src={brownpic} alt="pic" className="brownpicClass"></img>
       <p className="SubTextpart4">
-        With end-to-end encryption, your personal messages and <br></br> calls
-        are secured. Only you and the person you're talking <br></br> to can
-        read or listen to them, and nobody in between, not <br></br>even
+        With end-to-end encryption, your personal messages and  calls
+        are secured. Only you and the person you're talking  to can
+        read or listen to them, and nobody in between, not even
         WhatsApp.
       </p>
       <div className="LearnMoreContainerPart4">
